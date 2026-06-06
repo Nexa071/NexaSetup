@@ -1230,3 +1230,52 @@ body{
     width:100%;
     overflow-x:hidden;
 }
+/* CORREÇÕES MOBILE */
+
+@media (max-width: 768px) {
+
+    body{
+        overflow-x:hidden;
+    }
+
+    .navbar{
+        flex-direction:column;
+        gap:15px;
+        padding:15px;
+    }
+
+    .logo{
+        font-size:24px !important;
+        text-align:center;
+    }
+
+    .menu{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:12px;
+    }
+
+    .menu a{
+        font-size:14px;
+    }
+
+    .hero{
+        padding:120px 15px 60px;
+    }
+
+    .hero h1{
+        font-size:38px !important;
+        line-height:1.1;
+    }
+
+    .hero p{
+        font-size:16px;
+    }
+
+    img{
+        max-width:100%;
+        height:auto;
+    }
+
+}
